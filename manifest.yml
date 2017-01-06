@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: test0000002
+  host: test0000002
+  disk_quota: 1024M
+  services:
+  - test0000002-cloudantNoSQLDB
+  - availability-monitoring-auto
